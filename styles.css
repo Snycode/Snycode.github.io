@@ -119,6 +119,7 @@ fieldset{
 }
 .text{
     font-size: 1.3em;
+    color: #4866C8;
 }
 .education{
     color: #F86045;
@@ -129,6 +130,11 @@ fieldset{
 }
 .university{
     font-size: 1.3em;
+    color: #3F8058;
+}
+.intitute{
+    font-size: 1.3em;
+    color:#1B5DA3
 }
 /* .barra{
     background-color:#333;
