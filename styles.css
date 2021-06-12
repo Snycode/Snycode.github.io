@@ -83,7 +83,7 @@ fieldset{
     border: 1px solid #F86045;
     border-radius: 16px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     
 }
