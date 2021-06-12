@@ -82,17 +82,15 @@ i{
 fieldset{
     border: 1px solid #F86045;
     border-radius: 16px;
-    
-}
-.icon{
-    width: 50px;
-}
-fieldset{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     
 }
+.icon{
+    width: 30px;
+}
+
 .languagues{
     color: #F86045;
     font-family: 'Dancing Script', cursive;
