@@ -1,1 +1,140 @@
-hello styles
+body{
+    background-color: #222;
+}
+
+.header-container{
+    display: flex;
+    background-color: #222;
+    justify-content: space-evenly;
+    font-family: 'Dancing Script', sans-serif;
+    border-bottom: none;
+    -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+    
+}
+.about{
+    padding-left: 40px;
+}
+#photo{
+    width: 150px;
+    height: 150px;
+    clip-path: circle(50% at 50% 50%);
+    margin: 20px;
+  
+   
+}
+i{
+    font-size: 1.2em;
+    margin-right: 5px;
+}
+.name{
+  
+    color: #f3f4f5;
+    font-size: 3em;
+}
+.subtitle{
+    color: #F86045;
+    font-size: 2em;
+}
+.description{
+    color: #fff;
+    font-size: 1.3em;
+}
+
+/* //PESONAL INFO IZQ*/
+
+.body-container{
+    display: flex;
+    justify-content: center;
+    
+}
+.lateralIzqInfo{
+    width: 50%;
+    border:1px solid #403C5F;
+    padding: 20px;
+    background-color: #403C5F;
+    color: #f3f4f5;
+    font-size: 1.2em;
+    border-top: 1px solid #222;
+    height: 850px;
+}
+.personalInfo{
+    color: #F86045;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.html{
+    color: #DD4B25;
+}
+
+.specialization{
+    color: #F86045;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+.skills{
+    color: #F86045;
+    
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+fieldset{
+    border: 1px solid #F86045;
+    border-radius: 16px;
+    
+}
+.icon{
+    width: 50px;
+}
+fieldset{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.languagues{
+    color: #F86045;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.5em;
+}
+
+
+/* EXPERIENCE DER */
+
+.lateralDerInfo{
+    width: 50%;
+    border: none;
+    border-left: 1px solid #403C5F;
+    padding: 20px;
+    background-color: #f3f4f5;
+    border-right: 1px solid #eee;
+    
+}
+.experience{
+    color: #F86045;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px 1px;
+}
+.text{
+    font-size: 1.3em;
+}
+.education{
+    color: #F86045;
+    font-family: 'Dancing Script', cursive;
+    font-size: 1.8em;
+    text-shadow: 1px 1px 1px 1px;
+    margin-top: 300px;
+}
+.university{
+    font-size: 1.3em;
+}
+/* .barra{
+    background-color:#333;
+    width: 100%;
+    margin: 0;
+} */
+
+
+
