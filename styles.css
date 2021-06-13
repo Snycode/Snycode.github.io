@@ -213,12 +213,23 @@ fieldset{
 
 /* MEDIA */
 
-@media screen and (max-width: 375px){
+@media screen and (max-width: 1024px){
+.about{
+    padding-left: 100px;
+    text-align: center;
+}
+@media screen and (max-width: 768px){
+    body{
+        background-color: aqua;
+    }
+}
+
+@media screen and (max-width: 575px){
     .header-container{
-     display: block;
-     width: auto;
-     margin:  0 auto;
-     text-align: center;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     flex-direction: column;
      
     }
     .description{
@@ -226,6 +237,7 @@ fieldset{
     }
     .photo{
         display: block;
+        margin: 0 auto;
         
     }
     #about{
@@ -265,10 +277,14 @@ fieldset{
 
 }
 
-@media screen and (max-width: 280px){
+@media screen and (max-width: 320px){
     body{
         
         margin: 0 5px;
+    }
+
+    .about{
+        padding-left: 0;
     }
     .name{
         font-size: 30px;
