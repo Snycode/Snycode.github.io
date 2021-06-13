@@ -241,6 +241,9 @@ fieldset{
         width: auto;
         text-align: center;
     }
+    .lateralIzqInfo i{
+    display: none;
+    }
     .lateralDerInfo{
         margin: auto;
         width: auto;
