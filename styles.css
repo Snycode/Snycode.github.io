@@ -19,8 +19,8 @@ body{
     align-items: center;
     font-family: 'Dancing Script', sans-serif;
     -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
--moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+    box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
     
 }
 .about{
@@ -259,6 +259,7 @@ fieldset{
     }
     .lateralIzqInfo{
         font-size: 1em;
+        padding-left: 0;
     }
     .institute{
         font-size: 1em;
@@ -310,10 +311,11 @@ fieldset{
         
     }
     
+    
     .lateralDerInfo{
        
         width: auto;
-        text-align: center;
+        
     }
    
     .footer-container{
