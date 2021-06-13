@@ -214,26 +214,72 @@ fieldset{
 /* MEDIA */
 
 @media screen and (max-width: 1024px){
-.about{
-    padding-left: 100px;
-    text-align: center;
+
+.header-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: auto;
+    box-shadow: none;
 }
+.name{
+    font-size: 2em;
+}
+.subtitle{
+    font-size: 1.5em;
+}
+
+.description{
+    font-size: 1em;
+}
+
+}
+
 @media screen and (max-width: 768px){
-    body{
-        background-color: aqua;
+    .lateralIzqInfo{
+    width: auto;
+    border:1px solid #403C5F;
+    padding: 20px;
+    background-color: #403C5F;
+    color: #f3f4f5;
+    font-size: 1.2em;
+    }
+    .fullname{
+        font-size: 16px;
+    }
+    .email{
+        font-size: 16px;
+    }
+    .phone{
+        font-size: 16px;
+    }
+    .institute{
+        font-size: 1em;
+    }
+    .university{
+        font-size: 1em;
     }
 }
 
-@media screen and (max-width: 575px){
+@media screen and (max-width: 567px){
     .header-container{
      display: flex;
-     justify-content: space-evenly;
+     justify-content: center;
      align-items: center;
      flex-direction: column;
+        
      
+    }
+    .name{
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .subtitle{
+        text-align: center;
     }
     .description{
         font-size: 16px;
+        
     }
     .photo{
         display: block;
@@ -242,7 +288,7 @@ fieldset{
     }
     #about{
         display: block;
-        
+        padding-left: 0;
     }
     .body-container{
         display: block;
@@ -252,12 +298,11 @@ fieldset{
         margin: auto;
         width: auto;
         text-align: center;
+        
     }
-    .lateralIzqInfo i{
-    display: none;
-    }
+    
     .lateralDerInfo{
-        margin: auto;
+       
         width: auto;
         text-align: center;
     }
@@ -267,7 +312,7 @@ fieldset{
         margin: auto;
     }
     fieldset{
-        margin: auto;
+       margin: auto;
         width: 100px;
     }
     .icon{
@@ -309,6 +354,25 @@ fieldset{
        .footer_text{
            font-size: 16px;
        }
+}
+@media screen and (max-width: 280px){
+    
+    .header-container{
+        text-align: center;
+        margin: 0 auto;
+    }
+    .name{
+        font-size: 1em;
+        
+    }
+    .subtitle{
+        font-size: 1em;
+    }
+    
+    span{
+       position: relative;
+       left: 20px;
+    }
 }
 
 
