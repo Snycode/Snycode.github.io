@@ -69,6 +69,10 @@ i{
    
     
 }
+#email{
+    font-size: 1em;
+   
+}
 .lateralIzqInfo p{
 margin: 20px;
 }
@@ -100,6 +104,7 @@ fieldset{
     align-items: center;
     width: 200px;
     padding: 10px;
+    margin-left: 10px;
     
 }
 .icon{
@@ -111,6 +116,9 @@ fieldset{
     color: #F86045;
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
+}
+.spanish{
+    margin-left: 15px;
 }
 
 
@@ -267,10 +275,7 @@ fieldset{
     .university{
         font-size: 1em;
     }
-    #email{
-        font-size: 1em;
-        color: red;
-    }
+    
 }
 
 @media screen and (max-width: 567px){
