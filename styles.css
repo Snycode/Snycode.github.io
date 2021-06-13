@@ -7,6 +7,10 @@
 body{
     background-color: #222;
 }
+.wrapper-container{
+    word-wrap: break-word;
+    min-width: fit-content;
+}
 
 .header-container{
     display: flex;
@@ -121,6 +125,15 @@ fieldset{
    
     
 }
+.dnp{
+    width: 200px;  
+}
+.unicor{
+    width: 80px;
+   }
+.itsa{
+    width: 150px;
+   }
 
 .lateralDerInfo p{
     margin: 20px 0;
@@ -308,11 +321,15 @@ fieldset{
         margin: auto;
     }
     fieldset{
-      
+       margin-left:15px;
         width: 100px;
     }
     .icon{
         width: 30px;
+    }
+    span{
+        position: relative;
+        left: 20px;
     }
 
 
@@ -344,9 +361,7 @@ fieldset{
         font-size: 0.9em;
     }
     
-    .lateralDerInfo img{
-        width: 200px;
-       }
+    
        .footer_text{
            font-size: 16px;
        }
