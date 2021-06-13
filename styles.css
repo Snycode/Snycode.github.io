@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0%;
+}
+
 body{
     background-color: #222;
 }
@@ -59,6 +65,9 @@ i{
     border-top: 1px solid #222;
     
 }
+.lateralIzqInfo p{
+margin: 20px;
+}
 .personalInfo{
     color: #F86045;
     font-family: 'Dancing Script', cursive;
@@ -86,6 +95,7 @@ fieldset{
     justify-content: flex-start;
     align-items: center;
     width: 200px;
+    padding: 10px;
     
 }
 .icon{
@@ -110,6 +120,10 @@ fieldset{
     background-color: #f3f4f5;
     border-right: 1px solid #eee;
     
+}
+
+.lateralDerInfo p{
+    margin: 20px 0;
 }
 .experience{
     color: #F86045;
@@ -141,20 +155,61 @@ fieldset{
 
 .social-container{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     color: #eee;
+    font-size: 1.3em;
+    height: auto;
+  
+}
+
+.social-container i{
+    margin: 20px 20px;
     font-size: 2em;
+    cursor: pointer;
+    
 }
-
-
-
-.barra{
-    background-color:#222;
-    width: 100%;
-    margin: 0;
+.social-container i:hover{
     opacity: 0.5;
+    transition: 3s;
+    transition: 1.5s;
 }
+#facebook{
+    color: #1198F5;
+}
+
+#twitter{
+    color:#1DA1F2;
+}
+#instagram{
+    color: #C12B8D;
+}
+
+
+/* FOOTER */
+
+.footer-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#eee;
+    
+}
+#heart{
+    color: crimson;
+    font-size: 1.5em;
+}
+#heart:hover{
+    color: #4866C8;
+    transition: 3s;
+    transform: scale(.5);
+
+}
+.footer_text{
+    font-size: 1.3em;
+}
+
+
 
 
 
