@@ -139,7 +139,7 @@ fieldset{
 
 /* SOCIAL BOX */
 
-social-container{
+.social-container{
     display: flex;
     justify-content: center;
     align-items: center;
