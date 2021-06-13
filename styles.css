@@ -31,7 +31,7 @@ box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
    
 }
 i{
-    font-size: 1.2em;
+    font-size: 1em;
     margin-right: 5px;
 }
 .name{
@@ -244,14 +244,8 @@ fieldset{
     color: #f3f4f5;
     font-size: 1.2em;
     }
-    .fullname{
-        font-size: 16px;
-    }
-    .email{
-        font-size: 16px;
-    }
-    .phone{
-        font-size: 16px;
+    .lateralIzqInfo{
+        font-size: 1em;
     }
     .institute{
         font-size: 1em;
@@ -292,12 +286,14 @@ fieldset{
     }
     .body-container{
         display: block;
+
         
     }
+    
     .lateralIzqInfo{
         margin: auto;
         width: auto;
-        text-align: center;
+        
         
     }
     
@@ -312,7 +308,7 @@ fieldset{
         margin: auto;
     }
     fieldset{
-       margin: auto;
+      
         width: 100px;
     }
     .icon{
