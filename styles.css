@@ -5,8 +5,23 @@
     padding: 0%;
     }
 
+    :root{
+    
+     /* BACKGROUNDS */
+    --bgcolor-boxLeft-color:#403C5F;
+    --bgcolor-boxRight-color:#f3f4f5;
+    --bgcolor-header-color:#222;
+
+    /* COLORS */
+    --bgcolor-pinkInstagram-color:#C12B8D;
+    --bgcolor-subtitle-color:#F86045;
+    --bgcolor-insitute-color:#1B5DA3;
+    --bgcolor-dnpText-color:#4866C8;
+    --bcolor-grenUnicor-color:#3F8058;
+    }
+
     body{
-    background-color: #222;
+    background-color:var(--bgcolor-header-color);
     }
 
     .wrapper-container{
@@ -18,7 +33,7 @@
 
     .header-container{
     display: flex;
-    background-color: #222;
+    background-color: var(--bgcolor-header-color);
     justify-content: space-around;
     align-items: center;
     font-family: 'Dancing Script', sans-serif;
@@ -48,7 +63,7 @@
     }
 
     .subtitle{
-    color: #F86045;
+    color: var(--bgcolor-subtitle-color);
     font-size: 2em;
     }
 
@@ -76,7 +91,7 @@
     transition: 2s;
    }
 
-    .manu  a:active,a:hover{color: #F86045;}
+    .manu  a:active,a:hover{color: var(--bgcolor-header-color);}
 
     .menu ul{list-style: none;}
 
@@ -91,12 +106,9 @@
     transition: background-size .3s;
     }
 
-    .menu a{
-    text-decoration: none;
-    }
-    .menu a:active{
-    color: #333;
-    }
+    .menu a{text-decoration: none;}
+
+    .menu a:active{color: #333;}
 
     .menu li:hover, li:focus{
     background-size: 100% 2px;
@@ -114,64 +126,39 @@
     width: 50%;
     border:1px solid #403C5F;
     padding: 20px;
-    background-color: #403C5F;
+    background-color: var(--bgcolor-boxLeft-color);
     color: #f3f4f5;
     font-size: 1.2em;
     }
 
-    .lateralIzqInfo p{
-    margin: 20px;
-    }
+    .lateralIzqInfo p{margin: 20px;}
 
     .personalInfo{
-    color: #F86045;
+    color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     }
     
+    #fullname{font-size: 0.8em;}
 
-    .html{
-    color: #DD4B25;
-    }
+    #fullname:hover{text-shadow:0.01em 0.01em;}
 
-    #fullname{
+    #email{font-size: 0.8em;}
 
-    font-size: 0.8em;
-    }
+    #email:hover{text-shadow:0.01em 0.01em;}
 
-    #fullname:hover{
-    text-shadow:0.01em 0.01em;
-      
-    }
+    #phone {font-size: 0.8em;}
 
-    #email{
-
-    font-size: 0.8em;
-    }
-
-    #email:hover{
-    text-shadow:0.01em 0.01em;
-    
-    }
-
-    #phone {
-    
-    font-size: 0.8em;
-    }
-
-    #phone:hover{
-    text-shadow:0.01em 0.01em;
-   
-    }
+    #phone:hover{text-shadow:0.01em 0.01em;}
 
     .specialization{
-    color: #F86045;
+    color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     }
 
     .skills{
-    color: #F86045;
+    color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     }
@@ -193,14 +180,12 @@
     }
 
     .languagues{
-    color: #F86045;
+    color: var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     }
 
-    .spanish{
-    margin-left: 15px;
-    }
+    .spanish{margin-left: 15px;}
 
 
 /*RIGHT BOX EXPERIENCE*/
@@ -208,7 +193,7 @@
     .lateralDerInfo{
     width: 50%; 
     padding: 20px;
-    background-color: #f3f4f5;
+    background-color: var(--bgcolor-boxRight-color);
     }
 
     .dnp{width: 200px;}
@@ -223,19 +208,19 @@
     .lateralDerInfo p{margin: 20px 0;}
 
     .experience{
-    color: #F86045;
-    font-family: 'Dancing Script', cursive;
+    color:var(--bgcolor-subtitle-color);
+    font-family: 'Dancing Script', sans-serif;
     font-size: 1.8em;
     text-shadow: 1px 1px 1px 1px;
     }
 
     .text{
     font-size: 1.3em;
-    color: #4866C8;
+    color: var(--bgcolor-dnpText-color);
     }
 
     .education{
-    color: #F86045;
+    color: var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.8em;
     text-shadow: 1px 1px 1px 1px;
@@ -244,12 +229,12 @@
 
     .university{
     font-size: 1.3em;
-    color: #3F8058;
+    color: var(--bcolor-grenUnicor-color);
     }
 
     .institute{
     font-size: 1.3em;
-    color:#1B5DA3
+    color:var(--bgcolor-insitute-color);
     }
 
 /* BOX SOCIAL*/
@@ -280,7 +265,7 @@
 
     #twitter{color:#1DA1F2;}
 
-    #instagram{color: #C12B8D;}
+    #instagram{color: var(--bgcolor-pinkInstagram-color)}
 
 /* BOX FOOTER */
 
@@ -292,11 +277,7 @@
     height: 40px;
     }
 
-    #heart{
-    color: crimson;
-    
-
-    }
+    #heart{color: crimson;}
 
     .footer_text{font-size: 1.3em;}
 
@@ -358,9 +339,7 @@
      flex-direction: column;
         
     }
-    .menu{
-        margin-bottom: 20px;
-    }
+    .menu{margin-bottom: 20px;}
 
     .name{
     font-size: 1.5em;
