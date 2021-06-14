@@ -365,7 +365,10 @@
 
     .subtitle{text-align: center;}
 
-    .description{font-size: 16px;}
+    .description{
+    font-size: 16px;
+    margin-bottom:10px;
+    }
 
     .photo{
     display: block;
