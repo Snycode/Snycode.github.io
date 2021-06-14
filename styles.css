@@ -409,11 +409,11 @@
     font-size: 0.9em;
     }
 
-    #fullname{font-size: 09em;}
+    .fullname{font-size: 0.8em;}
 
-    #email{font-size: 0.9em;}
+    .email{font-size: 0.7em;}
 
-    #phone{font-size: 0.9em;}
+    .phone{font-size: 0.9em;}
     
     .footer_text{font-size: 16px;}
 
