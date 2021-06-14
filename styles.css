@@ -126,24 +126,40 @@
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
     }
+    
 
     .html{
     color: #DD4B25;
     }
 
     #fullname{
-        color:aquamarine;
-        font-size: 0.8em;
+    color:#aae;
+    font-size: 0.8em;
+    }
+
+    #fullname:hover{
+    text-shadow:0.01em 0.01em;
+      
     }
 
     #email{
-    color:deeppink;
+    color:aqua;
     font-size: 0.8em;
     }
 
+    #email:hover{
+    text-shadow:0.01em 0.01em;
+    
+    }
+
     #phone {
-    color: aqua;
+    color: #aea;
     font-size: 0.8em;
+    }
+
+    #phone:hover{
+    text-shadow:0.01em 0.01em;
+   
     }
 
     .specialization{
@@ -271,13 +287,8 @@
 
     #heart{
     color: crimson;
-    font-size: 1.5em;
-    }
+    
 
-    #heart:hover{
-    color: #4866C8;
-    transition: 3s;
-    transform: scale(.5);
     }
 
     .footer_text{font-size: 1.3em;}
