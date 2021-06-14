@@ -34,6 +34,7 @@
     height: 150px;
     clip-path: circle(50% at 50% 50%);
     margin: 20px;
+    
     }
 
     i{
@@ -55,6 +56,7 @@
     color: #fff;
     font-size: 1.3em;
     }
+    
 
 /* BOX MENU */
 
@@ -133,7 +135,7 @@
     }
 
     #fullname{
-    color:#aae;
+
     font-size: 0.8em;
     }
 
@@ -143,7 +145,7 @@
     }
 
     #email{
-    color:aqua;
+
     font-size: 0.8em;
     }
 
@@ -153,7 +155,7 @@
     }
 
     #phone {
-    color: #aea;
+    
     font-size: 0.8em;
     }
 
@@ -258,13 +260,14 @@
     align-items: center;
     color: #eee;
     font-size: 1.3em;
-    height: auto;
+     height:150px;
     }
 
     .social-container i{
     margin: 20px 20px;
     font-size: 2em;
     cursor: pointer;
+  
     }
 
     .social-container i:hover{
@@ -286,6 +289,7 @@
     justify-content: center;
     align-items: center;
     background-color:#eee;
+    height: 40px;
     }
 
     #heart{
