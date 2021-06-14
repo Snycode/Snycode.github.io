@@ -19,7 +19,7 @@
     .header-container{
     display: flex;
     background-color: #222;
-    justify-content: space-evenly;
+    justify-content: space-around;
     align-items: center;
     font-family: 'Dancing Script', sans-serif;
     -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
@@ -79,7 +79,7 @@
     .menu ul{list-style: none;}
 
     .menu li{
-    font-size: 1em;
+    font-size: 1.3em;
     color: #333;
     text-decoration: none;
     background-image: linear-gradient(currentColor, currentColor);
@@ -129,6 +129,21 @@
 
     .html{
     color: #DD4B25;
+    }
+
+    #fullname{
+        color:aquamarine;
+        font-size: 1.1em;
+    }
+
+    #email{
+    color:deeppink;
+    font-size: 1.1em;
+    }
+
+    #phone {
+    color: aqua;
+    font-size: 1.1em;
     }
 
     .specialization{
@@ -325,6 +340,9 @@
      flex-direction: column;
         
     }
+    .menu{
+        margin-bottom: 20px;
+    }
 
     .name{
     font-size: 1.5em;
@@ -412,6 +430,13 @@
     position: relative;
     left: 20px;
     }
+    
+    #fullname{font-size: 1em;}
+    
+    #email{font-size: 1em;}
+
+    #phone{font-size: 1em;}
+
 }
 
 
