@@ -370,11 +370,11 @@
     width: auto;
     }
 
-    #fullname{font-size: 0.5em;}
+    #fullname{font-size: 0.9em;}
     
-    #email{font-size: 0.5em;}
+    #email{font-size: 0.9em;}
 
-    #phone{font-size: 0.5em;}
+    #phone{font-size: 0.9em;}
     
     .lateralDerInfo{width: auto;}
    
@@ -409,11 +409,11 @@
     font-size: 0.9em;
     }
 
-    .fullname{font-size: 0.8em;}
+    #fullname{font-size: 09em;}
 
-    .email{font-size: 0.7em;}
+    #email{font-size: 0.9em;}
 
-    .phone{font-size: 0.9em;}
+    #phone{font-size: 0.9em;}
     
     .footer_text{font-size: 16px;}
 
@@ -437,11 +437,11 @@
     left: 20px;
     }
 
-    #fullname{font-size: 0.5em;}
+    #fullname{font-size: 0.9em;}
     
-    #email{font-size: 0.5em;}
+    #email{font-size: 0.9em;}
 
-    #phone{font-size: 0.5em;}
+    #phone{font-size: 0.9em;}
 
 }
 
