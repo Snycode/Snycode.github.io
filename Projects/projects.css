@@ -132,16 +132,18 @@
             
         }
         .heroe-projectImage{
-            width: 500px;
+            width:500px;
             border-radius: 10px;
             -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
             -moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
             box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+            max-width: 400px;
            
         }
 
         .heroe-container img{
             margin: 20px 0;
+            
         }
 
         .js-text{
@@ -225,23 +227,17 @@
 
 @media screen and (max-width: 768px){
     
-    .lateralIzqInfo{
-    width: auto;
-    border:1px solid #403C5F;
-    padding: 20px;
-    background-color: #403C5F;
-    color: #f3f4f5;
-    font-size: 1.2em;
+  
+    .heroe-projectImage{
+        width:400px;
+        border-radius: 10px;
+        -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        max-width: 300px;
+       
     }
-
-    .lateralIzqInfo{
-    font-size: 1em;
-    padding-left: 0;
-    }
-
-    .institute{font-size: 1em;}
-
-    .university{font-size: 1em;}
+    
 
 }
 
@@ -256,6 +252,17 @@
      flex-direction: column;
         
     }
+
+    .heroe-projectImage{
+        width:400px;
+        border-radius: 10px;
+        -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        max-width: 300px;
+       
+    }
+
     .menu{margin-bottom: 20px;}
 
     .name{
@@ -279,30 +286,10 @@
     display: block;
     padding-left: 0;
     }
-
-    .body-container{display: block;}
-    
-    .lateralIzqInfo{
-    margin: auto;
-    width: auto;
-    }
-
-    #fullname{font-size: 0.9em;}
-    
-    #email{font-size: 0.9em;}
-
-    #phone{font-size: 0.9em;}
-    
-    .lateralDerInfo{width: auto;}
    
     .footer-container{
     width: auto;
     margin: auto;
-    }
-
-    fieldset{
-    margin-left:15px;
-    width: 100px;
     }
 
     .icon{width: 30px;}
@@ -327,13 +314,15 @@
     margin-bottom:10px;
     }
 
-    .fullname{font-size: 0.8em;}
-
-    .email{font-size: 0.7em;}
-
-    .phone{font-size: 0.9em;}
-    
-    .footer_text{font-size: 16px;}
+    .heroe-projectImage{
+        width:300px;
+        border-radius: 10px;
+        -webkit-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        -moz-box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        box-shadow: 10px 24px 0px -21px rgba(0,0,0,0.75);
+        max-width: 200px;
+       
+    }
 
     
 
@@ -352,15 +341,5 @@
 
     .subtitle{font-size: 1em;}
     
-    span{
-    position: relative;
-    left: 20px;
-    }
-
-    #fullname{font-size: 0.9em;}
-    
-    #email{font-size: 0.9em;}
-
-    #phone{font-size: 0.9em;}
 
 }
