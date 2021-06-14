@@ -211,7 +211,10 @@
 
     .dnp{width: 200px;}
 
-    .unicor{width: 80px;}
+    .unicor
+    {width: 80px;
+    cursor:pointer;
+    }
 
     .itsa{width: 150px;}
 
