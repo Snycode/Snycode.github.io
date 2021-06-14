@@ -133,17 +133,17 @@
 
     #fullname{
         color:aquamarine;
-        font-size: 1.1em;
+        font-size: 0.5em;
     }
 
     #email{
     color:deeppink;
-    font-size: 1.1em;
+    font-size: 0.5em;
     }
 
     #phone {
     color: aqua;
-    font-size: 1.1em;
+    font-size: 0.5em;
     }
 
     .specialization{
@@ -369,6 +369,12 @@
     margin: auto;
     width: auto;
     }
+
+    #fullname{font-size: 0.5em;}
+    
+    #email{font-size: 0.5em;}
+
+    #phone{font-size: 0.5em;}
     
     .lateralDerInfo{width: auto;}
    
@@ -430,12 +436,12 @@
     position: relative;
     left: 20px;
     }
-    
-    #fullname{font-size: 1em;}
-    
-    #email{font-size: 1em;}
 
-    #phone{font-size: 1em;}
+    #fullname{font-size: 0.5em;}
+    
+    #email{font-size: 0.5em;}
+
+    #phone{font-size: 0.5em;}
 
 }
 
