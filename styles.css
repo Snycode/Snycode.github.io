@@ -51,6 +51,10 @@
     margin: 20px;
     
     }
+    #project{
+        font-size: 2em;
+        color: var(--bgcolor-subtitle-color);
+    }
 
     i{
     font-size: 1em;
