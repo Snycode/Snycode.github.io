@@ -44,14 +44,14 @@
 
     .about{padding-left: 20px;}
 
-    #photo{
+    #header__photo{
     width: 150px;
     height: 150px;
     clip-path: circle(50% at 50% 50%);
     margin: 20px;
     
     }
-    #project{
+    #menu__project{
         font-size: 1em;
         color: var(--bgcolor-subtitle-color);
     }
@@ -61,17 +61,17 @@
     margin-right: 5px;
     }
 
-    .name{
+    .about__name{
     color: #f3f4f5;
     font-size: 3em;
     }
 
-    .subtitle{
+    .about__subtitle{
     color: var(--bgcolor-subtitle-color);
     font-size: 2em;
     }
 
-    .description{
+    .about__description{
     color: #fff;
     font-size: 1.3em;
     }
@@ -126,7 +126,7 @@
     justify-content: center;
     }
 
-    .lateralIzqInfo{
+    .body__lateralIzqInfo{
     width: 50%;
     border:1px solid #403C5F;
     padding: 20px;
@@ -135,36 +135,47 @@
     font-size: 1.2em;
     }
 
-    .lateralIzqInfo p{margin: 20px;}
+    .body___lateralIzqInfo p{margin: 20px;}
 
-    .personalInfo{
+    .body__personalInfo{
     color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
+    margin: 20px 0;
     }
     
-    #fullname{font-size: 0.8em;}
+    #body__fullname{font-size: 0.8em;}
 
-    #fullname:hover{text-shadow:0.01em 0.01em;}
+    #body__fullname:hover{text-shadow:0.01em 0.01em;}
 
-    #email{font-size: 0.8em;}
+    #body__email{font-size: 0.8em;}
 
-    #email:hover{text-shadow:0.01em 0.01em;}
+    #body__email:hover{text-shadow:0.01em 0.01em;}
 
-    #phone {font-size: 0.8em;}
+    #body__phone {font-size: 0.8em;}
 
-    #phone:hover{text-shadow:0.01em 0.01em;}
+    #body__phone:hover{text-shadow:0.01em 0.01em;}
 
-    .specialization{
+    .body__specialization{
     color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
+    margin: 20px 0;
+    
     }
 
-    .skills{
+    .skill{
+        width: 350px;
+        display: flex;
+        justify-content: flex-start;
+        ;
+    }
+
+    .skill__legend{
     color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
+    
     }
 
     fieldset{
@@ -172,29 +183,31 @@
     border-radius: 16px;
     display: flex;
     justify-content: flex-start;
+
     align-items: center;
     width: 200px;
     padding: 10px;
-    margin-left: 10px;
+    margin-bottom: 60px;
     }
 
-    .icon{
+    .skill__icon{
     width: 40px;
     cursor: pointer;
     }
 
-    .languagues{
+    .skill__languages{
     color: var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.5em;
+    margin: 20px 0;
     }
 
-    .spanish{margin-left: 15px;}
+    .skill__spanish{margin-left: 0px;}
 
 
 /*RIGHT BOX EXPERIENCE*/
 
-    .lateralDerInfo{
+    .right__lateralDerInfo{
     width: 50%; 
     padding: 20px;
     background-color: var(--bgcolor-boxRight-color);
@@ -202,28 +215,29 @@
 
     .dnp{width: 200px;}
 
-    .unicor
-    {width: 80px;
+    .right__unicor{
+    
+    width: 80px;
     cursor:pointer;
     }
 
-    .itsa{width: 150px;}
+    .right__itsa{width: 150px;}
 
-    .lateralDerInfo p{margin: 20px 0;}
+    .right__lateralDerInfo p{margin: 20px 0;}
 
-    .experience{
+    .right__xperience{
     color:var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', sans-serif;
     font-size: 1.8em;
     text-shadow: 1px 1px 1px 1px;
     }
 
-    .text{
+    .right__text{
     font-size: 1.3em;
     color: var(--bgcolor-dnpText-color);
     }
 
-    .education{
+    .right__education{
     color: var(--bgcolor-subtitle-color);
     font-family: 'Dancing Script', cursive;
     font-size: 1.8em;
@@ -231,12 +245,12 @@
     margin-top: 300px;
     }
 
-    .university{
+    .right__university{
     font-size: 1.3em;
     color: var(--bcolor-grenUnicor-color);
     }
 
-    .institute{
+    .right__institute{
     font-size: 1.3em;
     color:var(--bgcolor-insitute-color);
     }
@@ -265,11 +279,11 @@
     transition: 1.5s;
     }
 
-    #facebook{color: #1198F5;}
+    #social__facebook{color: #1198F5;}
 
-    #twitter{color:#1DA1F2;}
+    #social__twitter{color:#1DA1F2;}
 
-    #instagram{color: var(--bgcolor-pinkInstagram-color)}
+    #social__instagram{color: var(--bgcolor-pinkInstagram-color)}
 
 /* BOX FOOTER */
 
@@ -300,11 +314,11 @@
     box-shadow: none;
     }
 
-    .name{font-size: 2em;}
+    .about__name{font-size: 2em;}
 
-    .subtitle{font-size: 1.5em;}
+    .about__subtitle{font-size: 1.5em;}
 
-    .description{font-size: 1em;}
+    .about__description{font-size: 1em;}
 
 }
 
@@ -312,7 +326,7 @@
 
 @media screen and (max-width: 768px){
     
-    .lateralIzqInfo{
+    .body__lateralIzqInfo{
     width: auto;
     border:1px solid #403C5F;
     padding: 20px;
@@ -321,14 +335,14 @@
     font-size: 1.2em;
     }
 
-    .lateralIzqInfo{
+    .body__lateralIzqInfo{
     font-size: 1em;
     padding-left: 0;
     }
 
-    .institute{font-size: 1em;}
+    .right__institute{font-size: 1em;}
 
-    .university{font-size: 1em;}
+    .right__university{font-size: 1em;}
 
 }
 
@@ -345,14 +359,14 @@
     }
     .menu{margin-bottom: 20px;}
 
-    .name{
+    .about__name{
     font-size: 1.5em;
     text-align: center;
     }
 
-    .subtitle{text-align: center;}
+    .about__subtitle{text-align: center;}
 
-    .description{
+    .about__description{
     font-size: 16px;
     margin-bottom:10px;
     }
@@ -369,32 +383,69 @@
 
     .body-container{display: block;}
     
-    .lateralIzqInfo{
+    .body__lateralIzqInfo{
     margin: auto;
     width: auto;
     }
 
-    #fullname{font-size: 0.9em;}
-    
-    #email{font-size: 0.9em;}
+    .body__personalInfo{
+        margin-left: 20px;
+    }
 
-    #phone{font-size: 0.9em;}
+    #body__fullname{
+    font-size: 0.9em;
+    margin-left: 20px;
+    }
     
-    .lateralDerInfo{width: auto;}
+    #body__email{
+    font-size: 0.9em;
+    margin-left: 20px;
+    }
+
+    #body__phone{
+    font-size: 0.9em;
+    margin-left: 20px;
+    }
+    
+    .right__lateralDerInfo{width: auto;}
    
     .footer-container{
     width: auto;
     margin: auto;
     }
 
-    fieldset{
-    margin-left:15px;
-    width: 100px;
+    .skill{
+        display: flex;
+        flex-direction: column;
+        width: 50px;
+        margin-left: 20px;
     }
 
-    .icon{width: 30px;}
+    .skill__languages{
+        margin-left: 20px;
+    }
 
-    .text{font-size: 1em};
+    .skill__spanish{
+        margin-left: 20px;
+    }
+
+    .skill__legend{
+        margin: 0;
+        padding: 0;
+    }
+    .body__paragraph{
+        margin-left: 20px;
+    }
+
+    .body__specialization{
+        margin-left: 20px;
+    }
+
+    
+
+    .skill__icon{width: 30px;}
+
+    .right__text{font-size: 1em};
 
 }
 
@@ -406,19 +457,19 @@
 
     .about{padding-left: 0;}
 
-    .name{font-size: 30px;}
+    .about__name{font-size: 30px;}
 
-    .description{
+    .about__description{
     margin: 0 5px;
     font-size: 0.9em;
     margin-bottom:10px;
     }
 
-    .fullname{font-size: 0.8em;}
+    .body__fullname{font-size: 0.8em;}
 
-    .email{font-size: 0.7em;}
+    .body__email{font-size: 0.7em;}
 
-    .phone{font-size: 0.9em;}
+    .body__phone{font-size: 0.9em;}
     
     .footer_text{font-size: 16px;}
 
@@ -435,20 +486,20 @@
     margin: 0 auto;
     }
 
-    .name{font-size: 1em;}
+    .about__name{font-size: 1em;}
 
-    .subtitle{font-size: 1em;}
+    .about__subtitle{font-size: 1em;}
     
-    span{
+    .skill__spanish{
     position: relative;
     left: 20px;
     }
 
-    #fullname{font-size: 0.9em;}
+    #body__fullname{font-size: 0.9em;}
     
-    #email{font-size: 0.9em;}
+    #body__email{font-size: 0.9em;}
 
-    #phone{font-size: 0.9em;}
+    #body__phone{font-size: 0.9em;}
 
 }
 
