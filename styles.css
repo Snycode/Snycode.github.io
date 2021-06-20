@@ -126,13 +126,17 @@
     justify-content: center;
     }
 
+    .body__text{
+        font-size: 1.3em;
+        margin-bottom: 10px;
+    }
+
     .body__lateralIzqInfo{
     width: 50%;
     border:1px solid #403C5F;
     padding: 20px;
     background-color: var(--bgcolor-boxLeft-color);
     color: #f3f4f5;
-    font-size: 1.2em;
     }
 
     .body___lateralIzqInfo p{margin: 20px;}
@@ -144,15 +148,15 @@
     margin: 20px 0;
     }
     
-    #body__fullname{font-size: 0.8em;}
+    #body__fullname{font-size: 0.9em;}
 
     #body__fullname:hover{text-shadow:0.01em 0.01em;}
 
-    #body__email{font-size: 0.8em;}
+    #body__email{font-size: 0.9em;}
 
     #body__email:hover{text-shadow:0.01em 0.01em;}
 
-    #body__phone {font-size: 0.8em;}
+    #body__phone {font-size: 0.9em;}
 
     #body__phone:hover{text-shadow:0.01em 0.01em;}
 
@@ -433,7 +437,7 @@
         margin: 0;
         padding: 0;
     }
-    .body__paragraph{
+    .body__text{
         margin-left: 20px;
     }
 
