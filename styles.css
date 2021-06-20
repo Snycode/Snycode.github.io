@@ -456,7 +456,9 @@
     
     .right__lateralDerInfo{width: auto;}
 
-    
+    .right__text{
+        font-size: 1em;
+    }
    
     .footer-container{
     width: auto;
