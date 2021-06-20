@@ -386,6 +386,9 @@
        
         font-size: 1.6em;
     }
+    .right__text{
+        font-size: 1em;
+    }
 
 }
 
@@ -453,9 +456,7 @@
     
     .right__lateralDerInfo{width: auto;}
 
-    .right__text{
-        color: red;
-    }
+    
    
     .footer-container{
     width: auto;
