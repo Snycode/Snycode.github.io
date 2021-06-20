@@ -148,15 +148,15 @@
     margin: 10px 0;
     }
     
-    #body__fullname{font-size: 0.9em;}
+    #body__fullname{font-size: 1.3em;}
 
     #body__fullname:hover{text-shadow:0.01em 0.01em;}
 
-    #body__email{font-size: 0.9em;}
+    #body__email{font-size: 1.3em;}
 
     #body__email:hover{text-shadow:0.01em 0.01em;}
 
-    #body__phone {font-size: 0.9em;}
+    #body__phone {font-size: 1.3em;}
 
     #body__phone:hover{text-shadow:0.01em 0.01em;}
 
@@ -209,7 +209,14 @@
     margin-top: -40px;
     }
 
-    .skill__spanish{margin-left: 0px;}
+    .skill__spanish{
+    margin-left: 0px;
+    font-size: 1.3em;
+    }
+    .skill__english{
+        margin-left: 0px;
+        font-size: 1.3em; 
+    }
 
 
 /*RIGHT BOX EXPERIENCE*/
@@ -446,7 +453,9 @@
     
     .right__lateralDerInfo{width: auto;}
 
-    
+    .right__text{
+        color: red;
+    }
    
     .footer-container{
     width: auto;
