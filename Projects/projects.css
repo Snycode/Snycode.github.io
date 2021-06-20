@@ -45,7 +45,7 @@
 
     .about{padding-left: 20px;}
 
-    #photo{
+    #header__photo{
     width: 150px;
     height: 150px;
     clip-path: circle(50% at 50% 50%);
@@ -53,7 +53,7 @@
     
     }
 
-    #home{
+    #menu__home{
         font-size: 2em;
         color: var(--bgcolor-subtitle-color)
     }
@@ -63,17 +63,17 @@
     margin-right: 5px;
     }
 
-    .name{
+    .about__name{
     color: var(--bgcolor-header-color);
     font-size: 3em;
     }
 
-    .subtitle{
+    .about__subtitle{
     color: var(--bgcolor-subtitle-color);
     font-size: 2em;
     }
 
-    .description{
+    .about__description{
     color: var(--bgcolor-header-color);
     font-size: 1.3em;
     }
@@ -182,11 +182,11 @@
             transition: 1.5s;
             }
         
-            #facebook{color: #1198F5;}
+            #social__facebook{color: #1198F5;}
         
-            #twitter{color:#1DA1F2;}
+            #social__twitter{color:#1DA1F2;}
         
-            #instagram{color: var(--bgcolor-pinkInstagram-color)}
+            #social__instagram{color: var(--bgcolor-pinkInstagram-color)}
         
         /* BOX FOOTER */
         
@@ -199,9 +199,9 @@
             color: var(--bgcolor-boxRight-color);
             }
         
-            #heart{color: crimson;}
+            #footer__heart{color: crimson;}
         
-            .footer_text{font-size: 1.3em;}
+            .footer__text{font-size: 1.3em;}
 
             /* DESKTOP VERSION */
 
@@ -215,11 +215,11 @@
     box-shadow: none;
     }
 
-    .name{font-size: 2em;}
+    .about__name{font-size: 2em;}
 
-    .subtitle{font-size: 1.5em;}
+    .about__subtitle{font-size: 1.5em;}
 
-    .description{font-size: 1em;}
+    .about__description{font-size: 1em;}
 
 }
 
@@ -265,19 +265,19 @@
 
     .menu{margin-bottom: 20px;}
 
-    .name{
+    .about__name{
     font-size: 1.5em;
     text-align: center;
     }
 
-    .subtitle{text-align: center;}
+    .about__subtitle{text-align: center;}
 
-    .description{
+    .about__description{
     font-size: 16px;
     margin-bottom:10px;
     }
 
-    .photo{
+    .header__photo{
     display: block;
     margin: 0 auto;  
     }
@@ -306,9 +306,9 @@
 
     .about{padding-left: 0;}
 
-    .name{font-size: 30px;}
+    .about__name{font-size: 30px;}
 
-    .description{
+    .about__description{
     margin: 0 5px;
     font-size: 0.9em;
     margin-bottom:10px;
@@ -338,9 +338,9 @@
     margin-bottom: 20px;
     }
 
-    .name{font-size: 1em;}
+    .about__name{font-size: 1em;}
 
-    .subtitle{font-size: 1em;}
+    .about__subtitle{font-size: 1em;}
     
 
 }
