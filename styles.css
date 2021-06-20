@@ -369,6 +369,17 @@
 
     .right__university{font-size: 1em;}
 
+
+    .right__xperience{
+        
+        font-size: 1.6em;
+    }
+    
+    .right__education{
+       
+        font-size: 1.6em;
+    }
+
 }
 
 /* MEDIUM MOBILE VERSION*/
@@ -416,6 +427,7 @@
     .body__personalInfo{
         margin-left: 20px;
     }
+    
 
     #body__fullname{
     font-size: 0.9em;
@@ -433,6 +445,8 @@
     }
     
     .right__lateralDerInfo{width: auto;}
+
+    
    
     .footer-container{
     width: auto;
@@ -440,8 +454,6 @@
     }
 
     .skill{
-        display: flex;
-        flex-direction: column;
         width: 50px;
         margin-left: 20px;
     }
@@ -468,7 +480,6 @@
         margin-left: 20px;
     }
 
-    
 
     .skill__icon{width: 30px;}
 
